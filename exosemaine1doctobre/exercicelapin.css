@@ -1,0 +1,68 @@
+body{ background-color: white;
+width:50%;
+margin-left:500px;}
+
+.part{ width: 100%;
+   background-color:rgba(0,0,0,0.8);}
+.part ul{ text-align-last: right;}/*pourquoi last marche et pas text-align non*/
+
+.part li
+{   text-align-last: right;
+    display:inline-block; 
+     list-style-type:none;
+     color: white;
+    font-weight: bold;} 
+
+ 
+div{ color: black;
+    font-weight: bold;
+     width: 100%;
+     text-align: left;
+     font-size: x-large; 
+    margin-left: auto;
+    margin-top: auto;}
+
+#A, #B, #C{border: 2px solid grey;
+           text-align: center;}
+
+
+#A h1, #B h1, #C h1{
+    text-align: center;
+    width: 100%;
+ }
+ #A p.blocktext{
+    margin-left: 0;
+    margin-right: auto;
+    width: 50%;
+    justify-content: right;
+   text-align: justify;}
+
+  #B p.blocktext {
+    margin-left: 50%;
+    margin-right: auto;
+    width: 50%;
+    justify-content: right;
+   text-align: justify;}
+
+ #C p{ justify-content: right;}
+ 
+
+    .imag1{ display: block;
+             width: 250px;
+           height: 250px; 
+           margin-right: 0;
+           float: right;}
+   
+  .imag2{ display: block;
+          margin-left: 0;
+         width: 250px;
+         height: 250px;
+         float: left; } 
+
+  .imag3{ display: block;
+          width: 250px;
+        height: 250px;
+        float: left;}
+
+
+   

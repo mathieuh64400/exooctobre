@@ -1,0 +1,134 @@
+body{ background-color: darkturquoise;
+        perspective: 500px;
+    width: 2000px;
+    height:2000px;}
+
+#A{ 
+    display: grid;
+    grid-template-columns: 500px 500px 500px 500px;
+    grid-template-rows: 200px;
+    grid-auto-flow:column;
+    justify-content: space-between;
+    justify-content: space-between;
+    
+}
+
+   /*carte A*/
+.container1{ position:relative;
+            width:200px;
+            height:250px;
+         margin-top: 50px;
+        margin-left: 150px; }
+   
+.CartA{ position:absolute;
+        width:100%;
+        height:100%; 
+        transform-style: preserve-3d;
+        transition: ease-in-out 3s;
+        background-color:white;}
+
+.CartA img{ margin-top: 20%;
+            margin-left: 30%; }
+.CartA p  { text-align: center; }         
+.CartA:hover{transform: rotateY(180deg);}
+
+.devant{ position: absolute;
+         width: 100%;
+        height: 100%;
+        backface-visibility: hidden;}
+
+.derriere{ position: absolute;
+           width: 100%;
+           height: 100%;
+           backface-visibility: hidden;
+           transform: rotateY(180deg);}
+/*carteB*/
+
+.container2{ position:relative;
+    width: 200px;
+    height: 250px;
+ margin-top: 50px;
+margin-left: 150px; 
+}
+
+.CartB{ position:absolute;
+    width:100%;
+    height:100%; 
+    transform-style: preserve-3d;
+    transition: ease-in-out 3s;
+    background-color:white;
+    }
+.CartB img{ margin-top: 20%;
+        margin-left: 30%; }
+.CartB p  { text-align: center; }         
+.CartB:hover{transform: rotateY(180deg);}
+
+.devant{ position: absolute;
+     width: 80%;
+    height: 80%;
+    backface-visibility: hidden;}
+
+.derriere{ position: absolute;
+       width: 80%;
+       height: 80%;
+       backface-visibility: hidden;
+       transform: rotateY(180deg);}
+/*partie C*/
+.container3{ position:relative;
+       width: 200px;
+       height: 250px;
+       margin-top: 50px;
+       margin-left: 150px; }
+
+.CartC{ position:absolute;
+    width:100%;
+    height:100%; 
+    transform-style: preserve-3d;
+    transition: ease-in-out 3s;
+    background-color:white;
+    }
+.CartC img{ margin-top: 20%;
+        margin-left: 30%; }
+.CartC p  { text-align: center; }         
+.CartC:hover{transform: rotateY(180deg);}
+
+.devant{ position: absolute;
+     width: 80%;
+    height: 80%;
+    backface-visibility: hidden;}
+
+.derriere{ position: absolute;
+       width: 80%;
+       height: 80%;
+       backface-visibility: hidden;
+       transform: rotateY(180deg);}
+
+.container4{ position:relative;
+         width: 200px;
+        height: 250px;
+        margin-top: 50px;
+        margin-left: 150px; }
+
+.CartD{ position:absolute;
+    width:100%;
+    height:100%; 
+    transform-style: preserve-3d;
+    transition: ease-in-out 3s;
+    background-color:white;
+    }
+
+.CartD img{ margin-top: 20%;
+        margin-left: 30%; }
+.CartD p  { text-align: center; }         
+.CartD:hover{transform: rotateY(180deg);}
+
+.devant{ position: absolute;
+     width: 80%;
+    height: 80%;
+    backface-visibility: hidden;}
+
+.derriere{ position: absolute;
+       width: 80%;
+       height: 80%;
+       backface-visibility: hidden;
+       transform: rotateY(180deg);}
